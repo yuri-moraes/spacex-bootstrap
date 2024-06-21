@@ -59,26 +59,20 @@ body {
   background-size: cover;
 }
 
-* {
-  padding: 0;
-  margin: 0;
+.footer {
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 0;
+}
+.footer a {
+  text-decoration: none;
   color: white;
-  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
-
-body {
-  min-height: 100vh;
-  background-color: black;
-}
-
-.navbar-brand {
-  width: 15%;
-}
-
-.button {
-  padding: 1rem;
-  width: 11rem;
-  border-radius: 5px;
+.footer .yuri-copy {
+  margin-right: 1.5rem !important;
 }
 
 .phrase {
@@ -107,11 +101,26 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.container6 .falcon9-container {
+
+.falcon9-container {
   display: flex;
   height: 90vh;
   flex-direction: column;
   justify-content: center;
+}
+
+.container7 {
+  min-height: 100vh;
+}
+.container7 .falcon9-container {
+  margin: 0;
+}
+.container7 .overViewPosition {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20rem;
+  align-items: start;
+  width: 70vh;
 }
 
 /*# sourceMappingURL=styles.css.map */
