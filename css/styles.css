@@ -10,7 +10,12 @@ body {
   background-color: black;
 }
 
+.navBarPc {
+  width: 10rem;
+}
+
 .navbar-brand {
+  margin-right: 2rem;
   width: 15%;
 }
 
@@ -75,6 +80,11 @@ body {
   margin-right: 1.5rem !important;
 }
 
+@media (max-width: 450px) {
+  .navBarPc {
+    width: 10rem;
+  }
+}
 .phrase {
   padding-top: 18rem;
 }
@@ -104,23 +114,9 @@ body {
 
 .falcon9-container {
   display: flex;
-  height: 90vh;
+  height: 100vh;
   flex-direction: column;
   justify-content: center;
-}
-
-.container7 {
-  min-height: 100vh;
-}
-.container7 .falcon9-container {
-  margin: 0;
-}
-.container7 .overViewPosition {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20rem;
-  align-items: start;
-  width: 70vh;
 }
 
 /*# sourceMappingURL=styles.css.map */

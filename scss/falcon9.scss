@@ -24,23 +24,8 @@
 
 .falcon9-container {
     display: flex;
-    height: 90vh;
+    height: 100vh;
     flex-direction: column;
     justify-content: center;
 }
 
-.container7 {
-    min-height: 100vh;
-
-    .falcon9-container {
-        margin: 0;       
-    }
-
-    .overViewPosition {
-        display: flex;
-        flex-direction: column;
-        padding-left: 20rem;
-        align-items: start; 
-        width: 70vh;
-    }
-}

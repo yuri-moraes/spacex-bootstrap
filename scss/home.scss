@@ -10,7 +10,12 @@ body {
     background-color: black;
 }
 
+.navBarPc {
+    width: 10rem;
+}
+
 .navbar-brand {
+    margin-right: 2rem;
     width: 15%;
 }
 
@@ -61,3 +66,9 @@ body {
         margin-right: 1.5rem !important;
     }
 }
+
+@media (max-width: 450px) {
+    .navBarPc {
+        width: 10rem;
+    }
+} 
