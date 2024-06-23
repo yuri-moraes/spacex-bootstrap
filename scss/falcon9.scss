@@ -1,31 +1,74 @@
 .phrase {
-    padding-top: 18rem;
+  padding-top: 18rem;
 
-    spam {
-        color: brown
-    }
+  spam {
+    color: brown;
+  }
 }
 
 .title-phrase {
-    font-size: 6rem;
+  font-size: 6rem;
 }
 
 .container5 {
-    @include background-page('../images/falcon9/01.jpg');
+  @include background-page("../images/falcon9/01.jpg");
 }
 
-
 .container6 {
-
-    .img-background {
-        @include background-page('../images/falcon9/02.jpg');
-    }
+  .img-background {
+    @include background-page("../images/falcon9/02.jpg");
+  }
 }
 
 .falcon9-container {
-    display: flex;
-    height: 100vh;
-    flex-direction: column;
-    justify-content: center;
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: center;
+
+  .text-carousel {
+    width: 25%;
+    margin-left: 13%;
+    margin-top: 15%;
+  }
+
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
 }
 
+.container7 {
+  @include background-page("../images/falcon9/03.jpg");
+}
+
+.container8 {
+  @include background-page("../images/falcon9/04.jpg");
+}
+
+.container9 {
+  @include background-page("../images/falcon9/05.jpg");
+}
+
+.container10 {
+  @include background-page("../images/falcon9/06.jpg");
+}
+
+.container11 {
+  @include background-page("../images/falcon9/07.jpg");
+}
+
+.container12 {
+  @include background-page("../images/falcon9/08.jpg");
+
+  .text-carousel {
+    margin-top: 0;
+    width: 38%;
+    margin-left: 0;
+  }
+}
+
+.length img {
+  height: 100vh;
+}

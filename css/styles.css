@@ -118,5 +118,72 @@ body {
   flex-direction: column;
   justify-content: center;
 }
+.falcon9-container .text-carousel {
+  width: 25%;
+  margin-left: 13%;
+  margin-top: 15%;
+}
+.falcon9-container .carousel-inner {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.container7 {
+  background-image: url("../images/falcon9/03.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container8 {
+  background-image: url("../images/falcon9/04.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container9 {
+  background-image: url("../images/falcon9/05.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container10 {
+  background-image: url("../images/falcon9/06.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container11 {
+  background-image: url("../images/falcon9/07.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container12 {
+  background-image: url("../images/falcon9/08.jpg");
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.container12 .text-carousel {
+  margin-top: 0;
+  width: 38%;
+  margin-left: 0;
+}
+
+.length img {
+  height: 100vh;
+}
 
 /*# sourceMappingURL=styles.css.map */
