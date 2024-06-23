@@ -1,74 +1,75 @@
 * {
-    padding: 0;
-    margin: 0;
-    color: white;
-    font-family:$font-family;
+  padding: 0;
+  margin: 0;
+  color: white;
+  font-family: $font-family;
+  box-sizing: border-box;
 }
 
 body {
-    min-height: 100vh;
-    background-color: black;
+  min-height: 100vh;
+  background-color: black;
 }
 
 .navBarPc {
-    width: 10rem;
+  width: 10rem;
 }
 
 .navbar-brand {
-    margin-right: 2rem;
-    width: 15%;
+  margin-right: 2rem;
+  width: 15%;
 }
 
 .button {
-    padding: 1rem;
-    width: 11rem;
-    border-radius: 5px;
+  padding: 1rem;
+  width: 11rem;
+  border-radius: 5px;
 }
 
 .phrase {
-    padding-top: 12rem;
+  padding-top: 12rem;
 }
 
 .container1 {
-    @include background-page('../images/home/01.jpg');
+  @include background-page("../images/home/01.jpg");
 
-    .arrowDown {
-        width: 7%;
-    }
+  .arrowDown {
+    width: 7%;
+  }
 }
 
 .container2 {
-    @include background-page('../images/home/03.jpg');
+  @include background-page("../images/home/03.jpg");
 }
 
 .container3 {
-    @include background-page('../images/home/02.gif');
+  @include background-page("../images/home/02.gif");
 }
 
 .container4 {
-    @include background-page('../images/home/04.jpg');
+  @include background-page("../images/home/04.jpg");
 }
 
 .footer {
-    font-size: 1rem;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    padding: 3rem 0;
-    
-    a {
-        text-decoration: none;
-        color: white;
-    }
-    
-    .yuri-copy {
-        margin-right: 1.5rem !important;
-    }
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 3rem 0;
+
+  a {
+    text-decoration: none;
+    color: white;
+  }
+
+  .yuri-copy {
+    margin-right: 1.5rem !important;
+  }
 }
 
 @media (max-width: 450px) {
-    .navBarPc {
-        width: 10rem;
-    }
-} 
+  .navBarPc {
+    width: 10rem;
+  }
+}

@@ -1,9 +1,17 @@
-@mixin background-page($background-image, $min-height: 100vh, $background-position: center, $background-repeat: no-repeat, $background-size: cover) {
-    background-image: url($background-image);
-    min-height: $min-height;
-    background-position: $background-position;
-    background-repeat: $background-repeat;
-    background-size: $background-size;
+@mixin background-page(
+  $background-image,
+  $min-height: 100vh,
+  $background-position: center,
+  $background-repeat: no-repeat,
+  $background-size: cover
+) {
+  background-image: url($background-image);
+  min-height: $min-height;
+  background-position: $background-position;
+  background-repeat: $background-repeat;
+  background-size: $background-size;
 }
 
-$font-family:  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue",
+  Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";

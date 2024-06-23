@@ -1,0 +1,143 @@
+.human-page {
+  .container1 {
+    @include background-page("../images/humanFlight/01.jpg");
+
+    .phrase {
+      padding-top: 16rem;
+
+      .title-phrase {
+        font-size: 7.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .subtitle {
+        font-size: 30px;
+        font-weight: 300;
+      }
+    }
+
+    .arrowDown {
+      margin-top: 4rem;
+      width: 10%;
+    }
+  }
+
+  .title-phrase {
+    font-size: 60px;
+  }
+
+  .message-title {
+    min-height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-weight: 300;
+
+    spam {
+      font-weight: bolder;
+    }
+  }
+
+  .container2 {
+    @include background-page("../images/humanFlight/02.jpg");
+
+    .phrase {
+      padding-right: 15%;
+    }
+
+    .subtitle {
+      font-size: 24px;
+      font-weight: 300;
+    }
+  }
+
+  .container3 {
+    @include background-page("../images/humanFlight/03.jpg");
+
+    .phrase {
+      padding-left: 10%;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+
+  .container4 {
+    @include background-page("../images/humanFlight/04.jpg");
+
+    .phrase {
+      padding-right: 20%;
+    }
+
+    .subtitle {
+      font-size: 17px;
+      font-weight: 300;
+    }
+  }
+
+  .container5 {
+    @include background-page("../images/humanFlight/05.jpg");
+
+    .phrase {
+      padding-left: 6%;
+    }
+
+    .subtitle {
+      font-size: 1rem;
+      font-weight: 300;
+    }
+  }
+}
+
+.human-page {
+  overflow-x: hidden;
+}
+
+.container1,
+.container2,
+.container3,
+.container4,
+.container5 {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container-fluid {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.end-text {
+  min-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .button {
+    min-width: 15rem;
+  }
+}
+
+.button-gap {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
